@@ -1,0 +1,14 @@
+
+.splide__arrow--next {
+    right: -3em !important;
+}
+.splide__arrow--prev {
+    left: -3em !important;
+}
+.splide{
+    position: relative;
+}
+.splide__pagination li{
+    position: relative;
+    bottom: -50px;
+}

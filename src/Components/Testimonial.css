@@ -1,0 +1,15 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.testimonial-wrap{padding: 50px 0;width: 100%;margin: 0px auto;box-sizing: border-box;}
+.testimonial-wrap .testimonial{display: flex;flex-direction: column;align-items: center;background: #f6f6f6;padding-bottom: 20px;}
+.testimonial-wrap .testimonial .testimonial-sub-heading{font-size: 20px;letter-spacing:1px;font-weight: 600;line-height: 10px;}
+.testimonial-wrap .testimonial .testimonial-heading{font-size: 55px;font-weight: 800;letter-spacing: 1px;color: #333333;padding-bottom: 30px;}
+.testimonial-wrap .testimonial .testimonial-review{max-width: 960px;width: 100%;margin: 0 auto;}
+.testimonial-wrap .testimonial .testimonial-review .testimonial-review-wrapper{display: flex;flex-direction: column;align-items: center;row-gap: 30px;}
+.testimonial-wrap .testimonial .testimonial-review .testimonial-review-wrapper .review-svg{background-color: #404040;padding: 15px;border-radius: 50%;width: 40px;height: 40px;display: flex;align-items: center;justify-content: center;}
+.testimonial-wrap .testimonial .testimonial-review .testimonial-review-wrapper .review-data{color: #4a4a4a;background: #ffffff;line-height: 25px;}
+.testimonial-wrap .testimonial .testimonial-review .testimonial-review-wrapper .review-wrapper{display: flex;column-gap: 20px;}
+.testimonial-wrap .testimonial .testimonial-review .testimonial-review-wrapper .review-wrapper .review-img .image{width: 60px;border-radius: 50%;}
+.testimonial-wrap .testimonial .testimonial-review .testimonial-review-wrapper .review-wrapper .review-data-wrap .review-heading{font-size: 12px;font-weight: 600;color: #4a4a4a;}
+.testimonial-wrap .testimonial .testimonial-review .testimonial-review-wrapper .review-wrapper .review-data-wrap .review-sub-heading{font-size: 12px;}

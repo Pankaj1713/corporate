@@ -1,0 +1,15 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.banar{position: relative;}
+.banar .banar-svg{position: absolute;}
+.banar .banar-data-wrap{display: flex;background: #deae6c;}
+.banar .banar-data-wrap .banar-data{padding: 80px 170px;}
+.banar .banar-data-wrap .banar-data .specification{font-size: 26px;color: #ffffff;font-weight: 700;}
+.banar .banar-data-wrap .banar-data .product-overview{font-size: 60px;color: #ffffff;font-weight: 700; width: 380px;line-height: 60px;padding-bottom: 25px;}
+.banar .banar-data-wrap .banar-data .details-wrap .details{display: flex;column-gap: 5px;}
+.banar .banar-data-wrap .banar-data .details-wrap .details .details-data{font-size: 14px;font-weight: 500;color: #ffffff;}
+.banar .banar-data-wrap .banar-data .cart-wrap{display: flex;align-items: center;column-gap: 15px; padding-top: 30px;}
+.banar .banar-data-wrap .banar-data .cart-wrap .price{    color: #ffffff;font-size: 30px;font-weight: 600;}
+.banar .banar-data-wrap .banar-data .cart-wrap .add-to-cart-wrap{color: #deae6c;font-size: 12px;box-shadow: 10px 12px 10px 0 rgba(0,0,0,.2); border: none;background: #ffffff;border-radius: 30px;display: flex;align-items: center;column-gap: 5px;padding: 10px 20px;font-weight: 600;}
+.banar .banar-data-wrap .banar-img .hair-straightner-img{position: absolute;z-index: 1;width: 430px;height: 505px;bottom: -15px;}

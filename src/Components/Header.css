@@ -1,0 +1,60 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.main{position: relative;overflow: hidden;}
+.navbar{width: 100%;display: flex;justify-content: space-around;align-items: center;position: absolute;top: 0px;background: #ffffff;z-index: 1;padding: 10px;}
+.navbar .logo .logo-img{width: 134px;}
+.navbar .nav-list .list{display: flex;list-style: none;column-gap: 20px;align-items: center;}
+.navbar .nav-list .list .list-items{font-size: 12px;font-weight: 600;letter-spacing: 2px;cursor: pointer;}
+.navbar .nav-list .list .list-items a{color: #000;text-decoration: none;}
+.navbar .nav-list .list .list-items .button{background: #359445;font-size: 18px;color: white;text-decoration: none;height: 40px;width: 80px;display: flex;align-items: center;justify-content: center;border-radius: 6px;font-weight: 400;letter-spacing: 0px;}
+.banner{position: relative;}.banner .background-image{background-image: url(https://hairstyle.oceanwp.org/wp-content/uploads/2021/04/img420368.png);background-repeat: repeat;background-size: cover;width: 100%;height: 686px;}
+.banner .banner-data{display: flex;flex-direction: column;align-items: center;padding-top: 300px;}
+.banner .banner-data .banner-heading{font-size: 60px;color: #ffffff;font-weight: 800;text-transform: uppercase;max-width: 100%;width: 425px;text-align: center;line-height: 65px;padding-bottom: 20px;}
+.banner .banner-data .banner-sub-heading{font-size: 14px;color: #ffffff;max-width: 100%;width: 550px;text-align: center;line-height: 25px;padding-bottom: 40px;}
+.banner .banner-data .shop-now-button{font-size: 12px;cursor: pointer; font-weight: 600;text-transform: uppercase;letter-spacing: 1px;background-color: #deae6c;border-radius: 30px;border: none;width: 130px;height: 40px;color: #ffffff;}
+.banner .banner-data .shop-now-button:hover{ background: #ffffff;color: #deae6c;}
+.elementor{display: flex; justify-content:center;column-gap: 150px;background: #404040;padding: 30px;border-bottom: 2px solid #4f4f4f;}
+.elementor .elementor-column{display: flex;align-items: center;column-gap: 15px;}
+.elementor .elementor-column .free-shipping-wrap .free-shipping{font-size: 13px;color: #ffffff;}
+.elementor .elementor-column .free-shipping-wrap .free-shipping-sub-heading{font-size: 12px;color: #ffffffcc;}
+.banner-1{display: flex;background: #404040;column-gap: 40px;}
+.banner-1 .banner-img{padding-left: 260px;}
+.banner-1 .banner-img .brown-hairs{width: 510px;height: 485px;position: relative;z-index: 1;}
+.banner-1 .banner-1-data{padding-top: 50px;}
+.banner-1 .banner-1-data .your-hair{font-size: 26px;color: #ffffff;font-weight: 700;line-height: 15px;}
+.banner-1 .banner-1-data .heading{font-size: 60px;color: #ffffff;font-weight: 800;line-height: 100px;}
+.banner-1 .banner-1-data .data{font-size: 14px;color: #999999;width: 570px;line-height: 27px;}
+.banner-1 .banner-1-data .item-details-wrap{display: flex;flex-direction: column;row-gap: 20px;}
+.banner-1 .banner-1-data .item-details-wrap .items-wrap{display: flex;column-gap: 50px;}
+.banner-1 .banner-1-data .item-details-wrap .items-wrap .item-details{display: flex;align-items: center;column-gap: 10px;}
+.banner-1 .banner-1-data .item-details-wrap .items-wrap .item-details .svg-data{font-size: 14px;color: #ffffff;}
+.banner-1 .banner-1-data .down-svg{width: 1503px;position: absolute;bottom: -2px;left: 0;height: 152px;}
+@media (max-width:991px){
+    .elementor{column-gap: 40px;}
+    .elementor .elementor-column .free-shipping-wrap{display: flex;flex-direction: column;width: 130px;}
+    .banner-1 {column-gap: 10px;}
+    .banner-1 .banner-img{padding-left: 10px;}
+    .banner .banner-data{padding-top: 200px;}  
+    .banner-1 .banner-1-data .heading{line-height: 80px;}
+    .banner-1 .banner-1-data .your-hair{line-height: 10px;}
+    .banner-1 .banner-1-data .data{width: 390px;line-height: 20px;}
+    .banner-1 .banner-1-data .item-details-wrap .items-wrap {padding-top: 10px;column-gap: 20px;}
+}
+
+@media (max-width:767px){
+    .banner .banner-data{padding-top: 130px;row-gap: 10px;}
+    .banner .background-image{height: 375px;}
+    .banner .banner-data .banner-heading{font-size: 30px;line-height: 10px;}
+    .banner .banner-data .banner-sub-heading{width: 360px;padding-bottom: 10px;}
+    .elementor{column-gap: 0px;}
+    .banner-1{column-gap: 30px;}
+    .banner-1 .banner-img .brown-hairs{width: 210px;height: 185px;}
+    .banner-1 .banner-1-data{padding-top: 30px;}
+    .banner-1 .banner-1-data .your-hair {font-size: 16px;line-height: 10px;letter-spacing: 1px;}
+    .banner-1 .banner-1-data .heading{font-size: 30px;line-height: 70px;letter-spacing: 1px;}
+    .banner-1 .banner-1-data .down-svg{width: 0;}
+    .banner-1 .banner-1-data .data{width: 480px;}
+    .banner-1 .banner-1-data .item-details-wrap{row-gap: 0px;}
+    .banner-1 .banner-1-data .item-details-wrap .items-wrap .item-details svg{width: 30px;height: 30px;}
+}
