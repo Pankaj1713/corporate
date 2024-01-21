@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="border-bottom"></div>
         <div className="footer-bottom-wrap">
           <div className="footer-bottom">
-            <div className="footer-logo"><img className='footer-logo-img' src="https://hairstyle.oceanwp.org/wp-content/uploads/2021/04/hlogo.png" alt="" /></div>
+            <div className="footer-logo"><img className='footer-logo-img' src="https://hairstyle.oceanwp.org/wp-content/uploads/2020/12/flogo.png" alt="" /></div>
             <div className="footer-data">Pellentesque id rhoncus augue nec maximus enim nunc commodo purus sit</div>
             <div className="footer-bottom-svg-wrap">
               <div className="footer-svg">{locationIcon({width:15,height:15,fill: colors.orange})}</div>

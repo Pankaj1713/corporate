@@ -1,5 +1,8 @@
 import React from 'react'
 import './LatestBlogs.css'
+import {Splide,SplideSlide} from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
+import "@splidejs/react-splide/css/core";
 
 const LatestBlogs = () => {
   const blogData = [
@@ -10,22 +13,43 @@ const LatestBlogs = () => {
     {id:5,img:"https://hairstyle.oceanwp.org/wp-content/uploads/2017/02/Sans-titre-1_0001_shutterstock_1715459824-1-300x208.png",heading:"Litora torqent per conubia",subHeading:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus…" , linkData:"LEARN MORE" ,link:"https://hairstyle.oceanwp.org/litora-torqent-per-conubia/" },
     {id:6,img:"https://hairstyle.oceanwp.org/wp-content/uploads/2017/02/Sans-titre-1_0000_shutterstock_1831638373-1-1024x711.png",heading:"Praesent libro se cursus ante",subHeading:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus…" , linkData:"LEARN MORE" ,link:"https://hairstyle.oceanwp.org/praesent-libro-se-cursus-ante/" },
   ]
+  const option = {
+    type: "loop",
+    autoplay: true,
+    interval: 5000,
+    pauseOnHover: true,
+    arrows: true,
+    pagination: true,
+    perPage: 3,
+    perMove: 1,
+    gap: "40px",
+    breakpoints: {
+        1400:{perPage: 5},
+        1099:{perPage: 4},
+        767: {perPage: 3},
+        599: {perPage: 2},
+        479: {perPage: 1}
+    }
+}
   return (
     <div className='latest-blogs-wrapper'>
         <div className="blog-sub-heading">STAY UPDATED</div>
         <div className="blog-heading">LATEST NEWS</div>
         <div className="blog-data-wrapper">
-          {blogData.map((data) => (
-              <div className="blog-wrap" key={data.id}>
-              <div className="blog-img"><img src={data.img} alt="" /></div>
-              <div className="blog-data-wrap">
-                <div className="data-heading">{data.heading}</div>
-                <div className="data-sub-heading">{data.subHeading}</div>
-                <a className='anchor' href={data.link} target='_blank' rel="noreferrer">{data.linkData}</a>
-              </div>
-            </div>
-          ))
-          }
+          <Splide options={option} className="splide">
+            {blogData.map((data) => (
+              <SplideSlide key={data.id}>
+                <div className="blog-wrap" key={data.id}>
+                  <div className="blog-img"><img src={data.img} alt="" /></div>
+                  <div className="blog-data-wrap">
+                    <div className="data-heading">{data.heading}</div>
+                    <div className="data-sub-heading">{data.subHeading}</div>
+                    <a className='anchor' href={data.link} target='_blank' rel="noreferrer">{data.linkData}</a>
+                </div>
+                </div>
+              </SplideSlide>
+            ))}
+          </Splide>
         </div>
     </div>
   )

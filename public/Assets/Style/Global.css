@@ -1,4 +1,3 @@
-
 .splide__arrow--next {
     right: -3em !important;
 }
@@ -11,4 +10,12 @@
 .splide__pagination li{
     position: relative;
     bottom: -50px;
+}
+
+textarea.has-input-error, input.has-input-error, select.has-input-error {
+    border-color: #FF0000 !important;
+}
+
+textarea.has-input-error:focus-visible, input.has-input-error:focus-visible, select.has-input-error:focus-visible {
+    outline-color: #FF0000 !important;
 }

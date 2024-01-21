@@ -13,3 +13,9 @@
 .banar .banar-data-wrap .banar-data .cart-wrap .price{    color: #ffffff;font-size: 30px;font-weight: 600;}
 .banar .banar-data-wrap .banar-data .cart-wrap .add-to-cart-wrap{color: #deae6c;font-size: 12px;box-shadow: 10px 12px 10px 0 rgba(0,0,0,.2); border: none;background: #ffffff;border-radius: 30px;display: flex;align-items: center;column-gap: 5px;padding: 10px 20px;font-weight: 600;}
 .banar .banar-data-wrap .banar-img .hair-straightner-img{position: absolute;z-index: 1;width: 430px;height: 505px;bottom: -15px;}
+
+@media (max-width:991px){
+    .banar .banar-data-wrap .banar-img .hair-straightner-img{
+        right: 0;
+    }
+}

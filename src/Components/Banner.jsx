@@ -11,6 +11,7 @@ const Banner = () => {
         {id:4, heading:"Pellentesque maximus quam eget"}
     ]
     
+    
   return (
     <div className='banar'>
         <div className="banar-svg">{whiteIcon({fill:colors.white,height:60,width:1504})}</div>

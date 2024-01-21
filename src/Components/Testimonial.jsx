@@ -18,7 +18,7 @@ const Testimonial = () => {
         const option = {
           type: "loop",
           autoplay: true,
-          interval: 50000,
+          interval: 5000,
           pauseOnHover: true,
           arrows: true,
           pagination: true,
