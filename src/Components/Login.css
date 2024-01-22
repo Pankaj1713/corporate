@@ -12,8 +12,8 @@ body{margin: 0;padding: 0;}
 .login-wrapper .right-login-data .welcome{font-size: 20px;color: #32475CDE;    margin-bottom: 15px;}
 .login-wrapper .right-login-data .sub-heading{color: #32475C99;margin-bottom: 30px;}
 .login-wrapper .right-login-data .input-inner{display: flex;flex-direction: column;row-gap: 40px;}
-.login-wrapper .right-login-data .input-inner .input-wrap{}
-.login-wrapper .right-login-data .input-inner .input-wrap .email-input{width: 100%;height: 56px;font-size: 18px;border-radius: 5px;border: 1px solid;padding-left: 15px;}
+.login-wrapper .right-login-data .input-inner .input-wrap{color: red;width: 420px;}
+.login-wrapper .right-login-data .input-inner .input-wrap .email-input{width: 100%;height: 56px;font-size: 18px;border-radius: 5px;border: 1px solid;padding-left: 15px;margin-bottom: 10px;}
 .login-wrapper .right-login-data .input-inner .input-wrap .validation{color: red;font-size: 14px;}
 .login-wrapper .right-login-data .remember-password{margin-top: 20px;display: flex;justify-content: space-between;}
 .login-wrapper .right-login-data .remember-password .remember-inner{display: flex;align-items: center;column-gap: 15px;}
